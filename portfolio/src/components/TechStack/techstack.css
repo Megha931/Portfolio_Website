@@ -1,0 +1,85 @@
+#techstackSection {
+  padding: 2rem;
+  background: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+}
+
+.techstackTitle {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #5FFFFF;
+}
+
+.techstackContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem; /* Add padding to the container */
+}
+
+.techstackBox {
+  flex: 1 1 calc(25% - 2rem); /* Further adjust the flex property and margin */
+  background: rgb(40, 40, 40);
+  padding: 1.5rem; /* Add padding inside the boxes */
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background-color 0.3s;
+  text-align: center;
+}
+
+.techstackBox:hover {
+  transform: translateY(-10px);
+  background-color: rgb(50, 50, 50);
+}
+
+.techstackCategory {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: rgb(247, 169, 24);
+}
+
+.techstackList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.techstackList li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.techstackCheckmark {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 720px) {
+  .techstackList li {
+      font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .techstackList li {
+      font-size: 3vw;
+  }
+  .techstackCategory {
+      font-size: 4vw;
+  }
+  .techstackCheckmark {
+      width: 2.5rem;
+      height: 2.5rem;
+  }
+}
