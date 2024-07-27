@@ -3,24 +3,24 @@ This is a personal portfolio website built using React JS. It showcases personal
 
 Components and Key Features
 
-Basic React Project Setup
+Basic React Project Setup:
 Initial setup and configuration of the React project.
 
-Navbar
+Navbar:
 Responsive navigation bar to navigate through different sections of the website.
 
-Header Section
+Header Section:
 Short information and introduction about myself.
 
-About Section
+About Section:
 Detailed information about my personal background and professional skills.
 
-Techstack Section
+Techstack Section:
 Display of my skills.
 
-Projects Section
+Projects Section:
 Detailed information about the projects I have completed with their github links.
 
-Contact Form
+Contact Form:
 Fully functional contact form integrated with EmailJs to send inquiries directly to my email.
 
