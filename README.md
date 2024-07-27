@@ -1,4 +1,4 @@
-Personal Portfolio Website
+Personal Portfolio Website:                                                                                                                                                       
 This is a personal portfolio website built using React JS. It showcases personal information, skills, projects, and includes a fully functional contact form that sends inquiries directly to your email address.
 
 Components and Key Features
